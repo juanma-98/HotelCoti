@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>cotizacion Hotel</title>
+</head>
+<body>
+    <nav><h1>Hotel El Mediterraneo</h1></nav>
+    <main>
+        <div class="container">
+            <div class="cotizbx">
+                <label for="">Numero Personas</label><br>
+                <input type="number" name="" id="nrPerso"><br>
+
+                <label for="">Numero Dias</label><br>
+                <input type="number" name="" id="nrDia"><br>
+
+                <label for="">Valor Personas</label><br>
+                <input type="number" name="" id="valoPer"><br>
+                <div class="resultados">
+                    <input type="button" value="Cotizar" onclick="cotizar()"><br>
+                    <label for="" id="resultado">$00.000.000</label>
+
+                </div>
+            </div>
+            <div class="galeria box">
+                <img id="habitacion" src="./img/marcas_n-branded_content-isla_mauricio_128498613_5615483_1706x960.jpg" alt=""><br>
+                <input type="button" id="bu" value="< Anterior" onclick="Img1()">
+                <input type="button" id="bu" value="> Anterior" onclick="Img2()"><br>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./hotel.js"></script>
+</body>
+</html>
